@@ -55,7 +55,9 @@ class RestaurantCategoryList extends Component {
                   className="icon"
                   onClick={() => {
                     this.onClickDecrement()
-                    decrementCount()
+                    if (dishCount !== 0) {
+                      decrementCount()
+                    }
                   }}
                 >
                   -
