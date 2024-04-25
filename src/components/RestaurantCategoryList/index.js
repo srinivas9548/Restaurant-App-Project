@@ -1,6 +1,6 @@
 import {Component} from 'react'
 
-import {FaRegDotCircle} from 'react-icons/fa'
+import {BiFoodTag} from 'react-icons/bi'
 
 import './index.css'
 
@@ -39,7 +39,7 @@ class RestaurantCategoryList extends Component {
     return (
       <li className="category-list-item">
         <div className="category-details-dot-icon-container">
-          <FaRegDotCircle className={bgColor} />
+          <BiFoodTag size={35} className={bgColor} />
           <div className="category-details">
             <h1 className="dish-name">{dishName}</h1>
             <div className="dish-currency-price-details">
