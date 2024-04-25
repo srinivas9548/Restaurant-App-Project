@@ -1,0 +1,160 @@
+.category-list-item {
+  border: 3px solid #e2e2e2;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.category-details-dot-icon-container {
+  display: flex;
+  align-items: flex-start;
+  width: 55%;
+}
+
+@media screen and (min-width: 768px) {
+  .category-details-dot-icon-container {
+    width: 68%;
+  }
+}
+
+.dot-icon {
+  font-size: 30px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.bg-green {
+  color: green;
+}
+
+.bg-brown {
+  color: brown;
+}
+
+.category-details {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 0;
+}
+
+.dish-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 0;
+}
+
+.dish-currency-price-details {
+  display: flex;
+  align-items: center;
+  color: #4d4e4f;
+  margin: 0;
+}
+
+.dish-currency {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.dish-price {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.dish-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #a4a7ab;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: green;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  padding: 10px 15px;
+}
+
+.icon {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.items-count {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.not-available-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fc392b;
+  margin: 0;
+}
+
+.customization-available {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #2d30ed;
+}
+
+.dish-calories {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: orange;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .dish-calories {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dish-calories {
+    font-size: 18px;
+  }
+}
+
+.dish-image {
+  width: 100px;
+  height: 100px;
+  align-self: flex-start;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .dish-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dish-image {
+    width: 140px;
+    height: 140px;
+  }
+}

@@ -1,0 +1,21 @@
+.restaurant-app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu-categories-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.category-dishes-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+}
