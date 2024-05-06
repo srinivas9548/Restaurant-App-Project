@@ -1,3 +1,6 @@
+#### Published Link:
+https://restaurant-app-git.onrender.com/
+
 Develop a restaurant page, ensuring it is user-friendly and visually appealing.
 
 #### Mobile Interface
@@ -42,5 +45,3 @@ Develop a restaurant page, ensuring it is user-friendly and visually appealing.
   </center>
 </a>
 
-#### Published Link:
-https://restaurant-app-git.onrender.com/
