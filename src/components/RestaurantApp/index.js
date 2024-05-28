@@ -20,7 +20,7 @@ class RestaurantApp extends Component {
 
   getRestaurantData = async () => {
     const apiUrl =
-      'https://run.mocky.io/v3/77a7e71b-804a-4fbd-822c-3e365d3482cc'
+      'https://run.mocky.io/v3/72562bef-1d10-4cf5-bd26-8b0c53460a8e'
     const response = await fetch(apiUrl)
     const data = await response.json()
     // console.log(data)
